@@ -1,0 +1,29 @@
+<h1>Virtual Mail Queue System (vmq6)</h1>
+<h2>Queue</h2>
+
+
+<table border="1">
+<tr>
+  <td>Date</td>
+  <td>Title</td>
+  <td>From</td>
+  <td>Sent to</td>
+  <td>Status</td>
+  
+  <td>&nbsp;</td>
+</tr>
+<!--row-->
+<tr>
+  <td><!--col-->{dinscrit}<!--/col--></td>
+  <td><!--col-->{ttitre}<!--/col--></td>
+  <td><!--col-->{tcourriel}<!--/col--></td> 
+  <td><!--col-->{nb_done}<!--/col-->/<!--col-->{nb_tot}<!--/col--></td>
+  <td><!--col-->{tstatus}<!--/col--></td>
+  <td><input type="button" onclick="document.location='email.php?id=<!--col-->{id}<!--/col-->'" value="View"></td>  
+</tr>
+<!--/row-->
+</table>
+
+<br><br>
+
+<input type="button" onclick="document.location='index.php'" value="Home"> <input type="button" onclick="document.location='new.php'" value="New email">

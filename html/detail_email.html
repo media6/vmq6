@@ -1,0 +1,48 @@
+<!--row-->
+
+<input type="button" onclick="document.location='send.php?id=<!--col-->{id}<!--/col-->'" value="Send to one">
+<br><br>
+<table border="1">
+
+<tr>
+  <td>Date</td>
+  <td><!--col-->{dinscrit}<!--/col--></td>
+</tr>
+<tr>
+  <td>Titre</td>
+  <td><!--col-->{ttitre}<!--/col--></td>
+</tr>
+<tr>
+  <td>Expéditeur</td>
+  <td><!--col-->{tcourriel}<!--/col--></td>
+</tr>
+<tr>
+  <td>Statut</td>
+  <td><!--col-->{tstatus}<!--/col--></td>
+</tr>
+
+<tr>
+  <td>Message</td>
+  <td><!--col-->{lmessage}<!--/col--></td>
+</tr>
+
+<!--/row-->             
+ 
+ <tr>
+  <td>To:</td>
+  <td><!--row_to--><a href="user.php?id=<!--col-->{kvmq6_contact}<!--/col-->"><!--col-->{tcourriel}<!--/col--></a>; <!--/row_to--></td>
+</tr>
+ <tr>
+  <td>CC:</td>
+  <td><!--row_cc--><a href="user.php?id=<!--col-->{kvmq6_contact}<!--/col-->"><!--col-->{tcourriel}<!--/col--></a>; <!--/row_cc--></td>
+</tr>
+ <tr>
+  <td>BCC:</td>
+  <td><!--row_bcc--><a href="user.php?id=<!--col-->{kvmq6_contact}<!--/col-->"><!--col-->{tcourriel}<!--/col--></a>; <!--/row_bcc--></td>
+</tr>
+
+</table>   
+
+<br><br>
+
+<input type="button" onclick="document.location='index.php'" value="Home"> <input type="button" onclick="document.location='queue.php'" value="Queue">

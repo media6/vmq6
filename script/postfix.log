@@ -1,0 +1,100 @@
+Dec 16 02:16:02 clients postfix/qmgr[986]: 0C58160B12: from=<root@clients.gestionmplus.com>, size=38587, nrcpt=1 (queue active)
+Dec 16 02:16:02 clients postfix/local[12345]: 0C58160B12: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.15, delays=0.11/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:16:02 clients postfix/qmgr[986]: 0C58160B12: removed
+Dec 16 02:16:02 clients postfix/smtp[12491]: C18FD60BAD: to=<secretariat@royalquebec.com>, relay=mxgate.oricom.ca[64.18.160.70]:25, delay=0.89, delays=0.19/0/0.22/0.49, dsn=2.0.0, status=sent (250 Ok: queued as 74BF11E4082)
+Dec 16 02:16:02 clients postfix/qmgr[986]: C18FD60BAD: removed
+Dec 16 02:17:01 clients postfix/pickup[13477]: 3C76D60BDF: uid=0 from=<mt@media6.ca>
+Dec 16 02:17:01 clients postfix/cleanup[13224]: 3C76D60BDF: message-id=<20141216071701.3C76D60BDF@clients.gestionmplus.com>
+Dec 16 02:17:01 clients postfix/qmgr[986]: 3C76D60BDF: from=<mt@media6.ca>, size=142557, nrcpt=1 (queue active)
+Dec 16 02:17:01 clients postfix/pickup[13477]: 537EA60BDE: uid=0 from=<root>
+Dec 16 02:17:01 clients postfix/cleanup[12487]: 537EA60BDE: message-id=<20141216071701.537EA60BDE@clients.gestionmplus.com>
+Dec 16 02:17:01 clients postfix/qmgr[986]: 537EA60BDE: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:17:01 clients postfix/local[11849]: 537EA60BDE: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.26, delays=0.15/0/0/0.11, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:17:01 clients postfix/qmgr[986]: 537EA60BDE: removed
+Dec 16 02:17:01 clients postfix/smtp[12491]: 3C76D60BDF: to=<secretariat@saintferreollesneiges.qc.ca>, relay=mxgate.oricom.ca[64.18.160.70]:25, delay=0.75, delays=0.23/0/0.08/0.44, dsn=2.0.0, status=sent (250 Ok: queued as C5BE41E4082)
+Dec 16 02:17:01 clients postfix/qmgr[986]: 3C76D60BDF: removed
+Dec 16 02:17:01 clients postfix/pickup[13477]: D348260BDF: uid=0 from=<root>
+Dec 16 02:17:01 clients postfix/cleanup[13224]: D348260BDF: message-id=<20141216071701.D348260BDF@clients.gestionmplus.com>
+Dec 16 02:17:01 clients postfix/qmgr[986]: D348260BDF: from=<root@clients.gestionmplus.com>, size=38587, nrcpt=1 (queue active)
+Dec 16 02:17:01 clients postfix/local[12345]: D348260BDF: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.19, delays=0.15/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:17:01 clients postfix/qmgr[986]: D348260BDF: removed
+Dec 16 02:18:01 clients postfix/pickup[13477]: EEA4560BFE: uid=0 from=<mt@media6.ca>
+Dec 16 02:18:01 clients postfix/cleanup[12487]: EEA4560BFE: message-id=<20141216071801.EEA4560BFE@clients.gestionmplus.com>
+Dec 16 02:18:02 clients postfix/qmgr[986]: EEA4560BFE: from=<mt@media6.ca>, size=142540, nrcpt=1 (queue active)
+Dec 16 02:18:02 clients postfix/pickup[13477]: 33F2260C03: uid=0 from=<root>
+Dec 16 02:18:02 clients postfix/cleanup[13224]: 33F2260C03: message-id=<20141216071802.33F2260C03@clients.gestionmplus.com>
+Dec 16 02:18:02 clients postfix/qmgr[986]: 33F2260C03: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:18:02 clients postfix/pickup[13477]: 41B2D60BF4: uid=0 from=<root>
+Dec 16 02:18:02 clients postfix/cleanup[12487]: 41B2D60BF4: message-id=<20141216071802.41B2D60BF4@clients.gestionmplus.com>
+Dec 16 02:18:02 clients postfix/local[11849]: 33F2260C03: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.19, delays=0.13/0/0/0.06, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:18:02 clients postfix/qmgr[986]: 33F2260C03: removed
+Dec 16 02:18:02 clients postfix/qmgr[986]: 41B2D60BF4: from=<root@clients.gestionmplus.com>, size=38586, nrcpt=1 (queue active)
+Dec 16 02:18:02 clients postfix/local[12345]: 41B2D60BF4: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.15, delays=0.11/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:18:02 clients postfix/qmgr[986]: 41B2D60BF4: removed
+Dec 16 02:18:02 clients postfix/smtp[12491]: EEA4560BFE: to=<rot193@st-hubert.qc.ca>, relay=courrier.noxent.com[205.236.174.215]:25, delay=0.55, delays=0.16/0/0.25/0.14, dsn=2.0.0, status=sent (250 2.0.0 Message received OK [id=B0121487978@SRBROASP03.noxent.com])
+Dec 16 02:18:02 clients postfix/qmgr[986]: EEA4560BFE: removed
+Dec 16 02:19:01 clients postfix/pickup[13477]: 6A4F261101: uid=0 from=<root>
+Dec 16 02:19:01 clients postfix/cleanup[13224]: 6A4F261101: message-id=<20141216071901.6A4F261101@clients.gestionmplus.com>
+Dec 16 02:19:01 clients postfix/qmgr[986]: 6A4F261101: from=<root@clients.gestionmplus.com>, size=19353, nrcpt=1 (queue active)
+Dec 16 02:19:01 clients postfix/pickup[13477]: 804D5610D7: uid=0 from=<mt@media6.ca>
+Dec 16 02:19:01 clients postfix/cleanup[12487]: 804D5610D7: message-id=<20141216071901.804D5610D7@clients.gestionmplus.com>
+Dec 16 02:19:01 clients postfix/local[11849]: 6A4F261101: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.16, delays=0.1/0/0/0.07, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:19:01 clients postfix/qmgr[986]: 6A4F261101: removed
+Dec 16 02:19:01 clients postfix/pickup[13477]: 910AC60C0B: uid=0 from=<root>
+Dec 16 02:19:01 clients postfix/qmgr[986]: 804D5610D7: from=<mt@media6.ca>, size=142549, nrcpt=1 (queue active)
+Dec 16 02:19:01 clients postfix/cleanup[13224]: 910AC60C0B: message-id=<20141216071901.910AC60C0B@clients.gestionmplus.com>
+Dec 16 02:19:01 clients postfix/qmgr[986]: 910AC60C0B: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:19:01 clients postfix/local[12345]: 910AC60C0B: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.14, delays=0.1/0/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:19:01 clients postfix/qmgr[986]: 910AC60C0B: removed
+Dec 16 02:19:04 clients postfix/smtp[12491]: 804D5610D7: to=<rouleau.christian@sadecanada.ca>, relay=sadecanada-ca.mail.protection.outlook.com[207.46.163.138]:25, delay=2.9, delays=0.26/0/0.3/2.3, dsn=2.6.0, status=sent (250 2.6.0 <20141216071901.804D5610D7@clients.gestionmplus.com> [InternalId=11003706213326, Hostname=BN3PR0101MB1155.prod.exchangelabs.com] Queued mail for delivery)
+Dec 16 02:19:04 clients postfix/qmgr[986]: 804D5610D7: removed
+Dec 16 02:20:01 clients postfix/pickup[13477]: B77BB61140: uid=0 from=<root>
+Dec 16 02:20:01 clients postfix/cleanup[12487]: B77BB61140: message-id=<20141216072001.B77BB61140@clients.gestionmplus.com>
+Dec 16 02:20:01 clients postfix/qmgr[986]: B77BB61140: from=<root@clients.gestionmplus.com>, size=19352, nrcpt=1 (queue active)
+Dec 16 02:20:01 clients postfix/pickup[13477]: CF5746111A: uid=0 from=<mt@media6.ca>
+Dec 16 02:20:01 clients postfix/cleanup[13224]: CF5746111A: message-id=<20141216072001.CF5746111A@clients.gestionmplus.com>
+Dec 16 02:20:01 clients postfix/local[11849]: B77BB61140: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.17, delays=0.1/0/0/0.07, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:20:01 clients postfix/qmgr[986]: B77BB61140: removed
+Dec 16 02:20:01 clients postfix/qmgr[986]: CF5746111A: from=<mt@media6.ca>, size=142541, nrcpt=1 (queue active)
+Dec 16 02:20:01 clients postfix/pickup[13477]: E042C61118: uid=0 from=<root>
+Dec 16 02:20:01 clients postfix/cleanup[13224]: E042C61118: message-id=<20141216072001.E042C61118@clients.gestionmplus.com>
+Dec 16 02:20:01 clients postfix/qmgr[986]: E042C61118: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:20:02 clients postfix/local[12345]: E042C61118: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.14, delays=0.1/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:20:02 clients postfix/qmgr[986]: E042C61118: removed
+Dec 16 02:20:03 clients postfix/smtp[12491]: CF5746111A: to=<rousseaumoy@hotmail.com>, relay=mx3.hotmail.com[65.55.37.72]:25, delay=2.2, delays=0.27/0/0.22/1.7, dsn=2.0.0, status=sent (250  <20141216072001.CF5746111A@clients.gestionmplus.com> Queued mail for delivery)
+Dec 16 02:20:03 clients postfix/qmgr[986]: CF5746111A: removed
+Dec 16 02:21:02 clients postfix/pickup[13477]: 0A18E61140: uid=0 from=<mt@media6.ca>
+Dec 16 02:21:02 clients postfix/cleanup[13224]: 0A18E61140: message-id=<20141216072102.0A18E61140@clients.gestionmplus.com>
+Dec 16 02:21:02 clients postfix/qmgr[986]: 0A18E61140: from=<mt@media6.ca>, size=142539, nrcpt=1 (queue active)
+Dec 16 02:21:02 clients postfix/pickup[13477]: 20B876111A: uid=0 from=<root>
+Dec 16 02:21:02 clients postfix/cleanup[13224]: 20B876111A: message-id=<20141216072102.20B876111A@clients.gestionmplus.com>
+Dec 16 02:21:02 clients postfix/qmgr[986]: 20B876111A: from=<root@clients.gestionmplus.com>, size=581, nrcpt=1 (queue active)
+Dec 16 02:21:02 clients postfix/pickup[13477]: 2D9A961118: uid=0 from=<root>
+Dec 16 02:21:02 clients postfix/cleanup[13224]: 2D9A961118: message-id=<20141216072102.2D9A961118@clients.gestionmplus.com>
+Dec 16 02:21:02 clients postfix/local[11849]: 20B876111A: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.27, delays=0.23/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:21:02 clients postfix/qmgr[986]: 20B876111A: removed
+Dec 16 02:21:02 clients postfix/qmgr[986]: 2D9A961118: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:21:02 clients postfix/local[12345]: 2D9A961118: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.12, delays=0.09/0/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:21:02 clients postfix/qmgr[986]: 2D9A961118: removed
+Dec 16 02:21:02 clients postfix/smtp[12491]: 0A18E61140: to=<roxanne@adaptavie.org>, relay=services.gestionmplus.com[174.142.222.38]:25, delay=1, delays=0.17/0/0.76/0.1, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as DE38ABFA35)
+Dec 16 02:21:02 clients postfix/qmgr[986]: 0A18E61140: removed
+Dec 16 02:21:35 clients postfix/qmgr[986]: F344A63021: from=<mt@media6.ca>, size=142563, nrcpt=1 (queue active)
+Dec 16 02:21:35 clients postfix/qmgr[986]: 3F9CC60A3D: from=<mt@media6.ca>, size=142539, nrcpt=1 (queue active)
+Dec 16 02:21:35 clients postfix/smtp[13904]: 3F9CC60A3D: to=<sdrhpnq@cdrhpnq.qc.ca>, relay=smtp.cdrhpnq.qc.ca[69.71.77.25]:25, delay=513, delays=513/0.01/0.16/0.21, dsn=2.0.0, status=sent (250 2.0.0 sBG7LZA9014788-sBG7LZAA014788 Message accepted for delivery)
+Dec 16 02:21:35 clients postfix/qmgr[986]: 3F9CC60A3D: removed
+Dec 16 02:21:37 clients postfix/smtp[12491]: F344A63021: to=<shakespeareanss1072@currantcantaloupechef.com>, relay=mail.currantcantaloupechef.com[83.122.10.2]:25, delay=1176, delays=1173/0.04/0.93/1.8, dsn=4.4.2, status=deferred (lost connection with mail.currantcantaloupechef.com[83.122.10.2] while sending end of data -- message may be sent more than once)
+Dec 16 02:22:01 clients postfix/pickup[13477]: 5C25B6111A: uid=0 from=<mt@media6.ca>
+Dec 16 02:22:01 clients postfix/cleanup[13224]: 5C25B6111A: message-id=<20141216072201.5C25B6111A@clients.gestionmplus.com>
+Dec 16 02:22:01 clients postfix/qmgr[986]: 5C25B6111A: from=<mt@media6.ca>, size=142543, nrcpt=1 (queue active)
+Dec 16 02:22:01 clients postfix/pickup[13477]: 77BBA60A0D: uid=0 from=<root>
+Dec 16 02:22:01 clients postfix/cleanup[13224]: 77BBA60A0D: message-id=<20141216072201.77BBA60A0D@clients.gestionmplus.com>
+Dec 16 02:22:01 clients postfix/qmgr[986]: 77BBA60A0D: from=<root@clients.gestionmplus.com>, size=19438, nrcpt=1 (queue active)
+Dec 16 02:22:01 clients postfix/pickup[13477]: 8531B60A3D: uid=0 from=<root>
+Dec 16 02:22:01 clients postfix/cleanup[13224]: 8531B60A3D: message-id=<20141216072201.8531B60A3D@clients.gestionmplus.com>
+Dec 16 02:22:01 clients postfix/local[11849]: 77BBA60A0D: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.22, delays=0.18/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:22:01 clients postfix/qmgr[986]: 77BBA60A0D: removed
+Dec 16 02:22:01 clients postfix/qmgr[986]: 8531B60A3D: from=<root@clients.gestionmplus.com>, size=17659, nrcpt=1 (queue active)
+Dec 16 02:22:01 clients postfix/local[12345]: 8531B60A3D: to=<root@clients.gestionmplus.com>, orig_to=<root>, relay=local, delay=0.13, delays=0.08/0/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Dec 16 02:22:01 clients postfix/qmgr[986]: 8531B60A3D: removed
+Dec 16 02:22:02 clients postfix/smtp[13904]: 5C25B6111A: to=<roxanne_halle@hotmail.com>, relay=mx4.hotmail.com[65.55.37.120]:25, delay=1.1, delays=0.25/0/0.23/0.64, dsn=2.0.0, status=sent (250  <20141216072201.5C25B6111A@clients.gestionmplus.com> Queued mail for delivery)
+Dec 16 02:22:02 clients postfix/qmgr[986]: 5C25B6111A: removed

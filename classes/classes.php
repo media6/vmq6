@@ -1,16 +1,14 @@
 <?
  
- if(!isset($_SESSION['BASE_DIR'])) {
-       $_SESSION['BASE_DIR'] = getcwd()."/";
- }  
- $mydir = $_SESSION['BASE_DIR']."classes/";
-  
+
+ $mydir = realpath(dirname(__FILE__))."/";
+ 
  if ($handle = opendir($mydir)) {
       while (false !== ($entry = readdir($handle))) {
       
       
           if ($entry != "." && $entry != ".." && $entry != "index.php" && $entry != "classes.php" && substr($entry,strlen($entry)-4,4)==".php") {
-              //echo "<br>A$entry<br>";
+         //     echo "<br>$mydir$entry<br>";
               include_once($mydir.$entry);
               
           }

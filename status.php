@@ -6,7 +6,7 @@ include('inc/header.php');
 <h2>Status</h2>
 <?
 
-$x = new vmq6();
+$x = new vmq6($active_db);
 
 
 ?>

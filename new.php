@@ -1,8 +1,8 @@
 <?
 
-include("../inc/header.php");
+include("inc/header.php");
 ?>
-<h1>vmq6 examples</h1>
+<h1>vmq6</h1>
 <h2>Create an email</h2>
 <?
 

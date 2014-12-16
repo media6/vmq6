@@ -1,0 +1,48 @@
+<h1>Virtual Mail Queue System (vmq6)</h1>
+<h2>User details</h2>
+<table border="1">
+<!--row-->
+<tr>
+  <td>First name</td>
+  <td><!--col-->{tprenom}<!--/col--></td>
+</tr>
+<tr>
+  <td>Last name</td>
+  <td><!--col-->{tnom}<!--/col--></td>
+</tr>
+<tr>
+  <td>Date inscrit</td>
+  <td><!--col-->{dinscrit}<!--/col--></td>
+</tr>
+<tr>
+  <td>Courriel</td>
+  <td><!--col-->{tcourriel}<!--/col--></td>
+</tr>
+<tr>
+  <td>Status</td>
+  <td><!--col-->{tstatus}<!--/col--></td>
+</tr>
+<!--/row-->
+ 
+
+</table>   
+<h2>Sent items</h2>
+<table border="1">
+ <tr>
+  <td>Date</td>
+  <td>From</td>
+  <td>Title</td>   
+  <td>Status</td>
+</tr>
+<!--row_msg-->  
+ <tr>
+  <td><!--col-->{dinscrit}<!--/col--></td>
+  <td><!--col-->{tcourriel}<!--/col--></td>
+  <td><!--col-->{ttitre}<!--/col--></td>   
+  <td><!--col-->{tstatus}<!--/col--></td>
+</tr>
+<!--/row_msg-->
+</table>   
+<br><br>
+<input type="button" onclick="document.location='index.php'" value="Home">
+<input type="button" onclick="document.location='queue.php'" value="Queue">

@@ -3,6 +3,8 @@
 class vmq6 {
   
   var $Contacts = null;
+  var $Emails = null;
+  var $Config = null;
   var $Db;                                                                                             
   
   
@@ -10,7 +12,9 @@ class vmq6 {
  
     if($this->InitDb($pDb)) {
       $this->Contacts = new vmq6contacts($pDb);
-      
+      $this->Emails = new vmq6emails($pDb);
+      $this->Config = new vmq6config($pDb);
+     
       
     } else {
       return false;
@@ -23,7 +27,9 @@ class vmq6 {
   }
   
   function Queue() {
-    return "Queue is empty!";
+    return $this->Emails->ListQueued();
+    
+    
   }
     
   
@@ -46,8 +52,23 @@ class vmq6 {
       return false;
     }
   }  
+                           
+  
+  function Send($pId,$pBaseDir="") {
+    if(intval($pId)>0) {
+       $this->Emails->LoadFromId($pId);
+       $my_id =$pId;
+    } else {
+      $my_id = $this->Emails->NextInQueue();
+      $this->Emails->LoadFromId($my_id);
+    }
+  
+    $this->Emails->PrepareContent($this->Emails->GetParam(VMQ6_EMAILS_MESSAGE),$pBaseDir);
     
+    $this->Emails->Send($my_id);
     
+  
+  }  
     
     
     
